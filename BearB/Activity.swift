@@ -7,12 +7,26 @@
 
 import SwiftUI
 
-struct Activity: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct Item {
+    let id = UUID()
+    let imageName: String
+    let title: String
+    let category: Category
+    let price: String
+    let description: String
 }
 
-#Preview {
-    Activity()
+enum Category: String {
+    case mural
+    case creator
+    case artistCollaboration
+    case brandCollaboration
+    case culturalIcons
+    case countryCitySpecific
+    case movieTVComic
+    case musicRelated
+    case sportsCollaboration
+    case techInnovationThemes
+    case luxuryMaterialVersions
+    case seasonalEventBased 
 }

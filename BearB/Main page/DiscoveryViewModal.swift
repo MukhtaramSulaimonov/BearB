@@ -1,18 +1,18 @@
-//
-//  DiscoveryViewModal.swift
-//  BearB
-//
-//  Created by Mukhtaram Sulaimonov on 12/12/24.
-//
-
-import SwiftUI
-
-struct DiscoveryViewModal: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    DiscoveryViewModal()
-}
+let items: [Item] = [
+    Item(imageName: "b1", title: "Salvador", category: .mural, price: "$50", description: "A stunning mural by Salvador. A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques.A mural designed with AI techniques, showcasing the interplay between vibrant colors and precise artistic techniques."),
+    Item(imageName: "b4", title: "AI Mural", category: .artistCollaboration, price: "$75", description: "A mural designed with AI techniques."),
+    Item(imageName: "b1", title: "Mick Tyson", category: .artistCollaboration, price: "$100", description: "An exclusive piece by creator Mick Tyson."),
+    Item(imageName: "b1", title: "Salvador", category: .artistCollaboration, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b1", title: "Salvador Allende", category: .mural, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b4", title: "AI Mural", category: .mural, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b1", title: "Mick Tyson", category: .creator, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b4", title: "AI Creator", category: .creator, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b1", title: "Salvador", category: .brandCollaboration, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b1", title: "Salvador Allende", category: .brandCollaboration, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b4", title: "AI Mural", category: .brandCollaboration, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b1", title: "Mick Tyson", category: .brandCollaboration, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b4", title: "AI Creator", category: .brandCollaboration, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b1", title: "KAWS", category: .artistCollaboration, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b1", title: "Supreme", category: .brandCollaboration, price: "$50", description: "A stunning mural by Salvador."),
+    Item(imageName: "b4", title: "Ukiyo-e Artwork", category: .culturalIcons, price: "$50", description: "A stunning mural by Salvador."),
+]

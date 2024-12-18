@@ -11,6 +11,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		5CC696A12D0AF8D900FFC240 /* Explore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Explore;
+			sourceTree = "<group>";
+		};
 		5CD346FC2D0AE4DA004057FF /* BearB */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BearB;
@@ -34,6 +39,7 @@
 			children = (
 				5CD346FC2D0AE4DA004057FF /* BearB */,
 				5CD346FB2D0AE4DA004057FF /* Products */,
+				5CC696A12D0AF8D900FFC240 /* Explore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +67,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				5CC696A12D0AF8D900FFC240 /* Explore */,
 				5CD346FC2D0AE4DA004057FF /* BearB */,
 			);
 			name = BearB;
@@ -252,8 +259,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BearB/Preview Content\"";
+				DEVELOPMENT_TEAM = LRGZ8LS343;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We want to use thecamera for identification";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We want to access you photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,8 +290,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BearB/Preview Content\"";
+				DEVELOPMENT_TEAM = LRGZ8LS343;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We want to use thecamera for identification";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We want to access you photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
