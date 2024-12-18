@@ -1,4 +1,3 @@
-
 🧸 Bearbrick Project
 Introduction
 The Bearbrick Project is a Swift-based iOS application designed for Bearbrick enthusiasts to explore, identify, and manage their collections. Using advanced image recognition powered by CoreML, the app allows users to identify Bearbrick models simply by uploading a photo. This project is perfect for collectors who want an intuitive way to track their collections and discover new Bearbrick figures.
